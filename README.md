@@ -1,3 +1,2 @@
-# DataCamp
- DataCamp Quiz  
+# DataCamp Quiz
  Ponlawat Rattanavayakorn
