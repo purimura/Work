@@ -341,6 +341,7 @@ if __name__ == '__main__':
     token = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
     recoveryLine()
 
+    if not os.path.exists(os.path.dirname(os.path.realpath(__file__)) + '/logs'): os.makedirs(os.path.dirname(os.path.realpath(__file__)) + '/logs')
     for filename in os.listdir(os.path.dirname(os.path.realpath(__file__)) + '/logs'):
         if os.path.getmtime(os.path.join(os.path.dirname(os.path.realpath(__file__)) + '/logs', filename)) < time.time() - 7 * 86400:
             os.remove(os.path.join(os.path.dirname(os.path.realpath(__file__)) + '/logs', filename))
