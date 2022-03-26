@@ -1,1 +1,0 @@
-This github created by Ponlawat Rattanavayakorn
